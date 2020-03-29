@@ -36,7 +36,7 @@ def encoding(string):
            coded += MORSE_CODE[string[i]] + ' '
     return coded.strip()
     
-#print (encoding("abc abc"))
+
 
 def decoding(code):
     #spliting into words
@@ -65,8 +65,3 @@ def decoding(code):
         
     return msg.strip()
   
-    
-    
-    
-    
-print(decoding('.- -... -.-.    .- -... -.-. '))
